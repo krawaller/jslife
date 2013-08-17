@@ -3,6 +3,12 @@ console.log("...LOADING bootstrap.js");
 //We configure require with paths to our modules, so we can reference them by name when we include them.
 require.config({
 	paths: {
+		// require loader plugins
+		cs: "lib/require/load_coffeescript-v0.4.3",
+		text: "lib/require/load_text-v2.0.7",
+		json: "lib/require/load_json-v0.3.1",
+		jade: "lib/require/load_jade-v0.27.6",
+		mdown: "lib/require/load_mdown-v0.1.1",
 		// external dependencies
 		jquery: "lib/jquery/jquery-v2.0.3",
 		pureunderscore: "lib/underscore/underscore-v1.5.1",
