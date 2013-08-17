@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>RIA-deltagare ht 2013</title>
+		<link rel="stylesheet" href="style/style.css"></link>
+		<link href='http://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<a class="sidelink" href="docs/index.html">documentation</a>
+		<a class="sidelink" href="test/index.html">test suite</a>
+		<div><div id="main"></div></div>
+		<script data-main="bootstrap.js" type="text/javascript" src="lib/require/require-v2.1.8.js"></script>
+		<script type="text/javascript">
+			require(["src/app"],function(App){ App.start(); });
+		</script>
+	</body>
+</html>

@@ -1,0 +1,1 @@
+This is a simple but powerful data diary app. JSON FTW! :)
